@@ -1,0 +1,97 @@
+body {
+    background: url('https://www.pcgamesn.com/wp-content/uploads/2020/05/spacex-docking-sim.jpg') no-repeat center fixed;     
+    background-size: cover;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.bar {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+a, .copy{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar :hover {
+    text-decoration: underline;
+}
+
+/* .logo {
+    height: 60x;
+    width: 50px;
+} */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    
+}
+
+
+.falcon, .shop {
+    margin-left: 50px;
+}
+
+.privacy {
+    margin-right: 100px;
+}
+
+.shop {
+    margin-right: 10px;
+}
+
+.mission {
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+    height: 100px;
+    width: 450px;
+    margin:200px 0px 5px 30px;
+}
+
+.launch {
+    height: 100px;
+    width: 450px;
+    font-size: 16px;
+    color: white;
+    margin-left: 30px;
+    line-height: 25px;
+}
+button {
+    margin-left: 30px;
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    transition: color 1s cubic-bezier(.25,1,.25,1); 
+    background-color: 1s cubic-bezier(.25,1,.25,1);
+}
+    
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    font-size: 10px;
+    position: fixed; 
+    bottom: 0px;
+}
+
+footer :hover {
+    color: gray;
+}
+
+.copy {
+    color: gray;
+    font-size: 10px;
+}
