@@ -1,0 +1,51 @@
+.body {
+    width: 70rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+.person{
+    padding: 2rem;
+}
+
+.info-box {
+  width: 55em;
+  height: 26rem;
+  background-color: white;
+  padding: 1rem;
+}
+
+.index {
+    position: relative;
+    
+}
+.index{
+    font-size: 1.5rem;
+    font-weight: bold;
+    float: right;
+}
+.names {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline rgb(12, 141, 216);
+    text-underline-offset: 5px;
+    margin-bottom: 2rem;
+}
+.info {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: .8rem;
+    display: inline;
+}
+.from, .title, .job{
+    margin-bottom: .8rem;
+}
+.style{
+    display: inline;
+}
+.movies{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 2.5rem;
+}

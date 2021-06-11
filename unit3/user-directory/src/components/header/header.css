@@ -1,0 +1,13 @@
+.header {
+    background-color: rgb(12, 141, 216);
+    width: auto;
+    height: 8rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+   display: flex;
+   align-items: center;  
+}
+header {
+    margin-left: 4rem;
+}
