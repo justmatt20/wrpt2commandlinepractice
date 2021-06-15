@@ -55,8 +55,8 @@ const People = ({ peopleData }) => {
               </div>
             </div>
             <div className="buttons">
-              <button className="previous"onClick={prevPerson}> &#60; Previous</button>
-              <button className="next"onClick={nextPerson}>Next &#62; </button>
+              <button className="previous"onClick={prevPerson}> &#60;Previous</button>
+              <button className="next"onClick={nextPerson}>Next &#62;</button>
             </div>
             </div>)}
           </div>

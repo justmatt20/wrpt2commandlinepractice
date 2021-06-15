@@ -15,7 +15,7 @@
 }
 
 .info-box {
-  width: 55em;
+  width: 46vw;
   height: 24rem;
   background-color: white;
   padding: 1rem;
@@ -55,9 +55,11 @@
     margin-top: 2.5rem;
 }
 .buttons{
-    width: 55vw;
+    width: 44vw;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    margin-left: 2rem;
 }
 button{
     border: none;
@@ -65,4 +67,6 @@ button{
     color: white;
     font-size: 1rem;
     font-weight: bold;
+ 
+    
 }
